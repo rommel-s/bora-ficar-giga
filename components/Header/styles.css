@@ -1,0 +1,19 @@
+.header-container {
+  background-color: blueviolet;
+  color: white;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.secondary-header-container {
+  color: blueviolet;
+  background-color: white;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
