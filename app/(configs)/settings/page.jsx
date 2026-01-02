@@ -7,7 +7,7 @@ const SettingsPage = () => {
     <>
       <h1>Settings Page</h1>
       <div>
-        <Link href="/(public)/not-found">
+        <Link href="/settings/licences">
           <button>Licenças</button>
         </Link>
       </div>
