@@ -4,7 +4,7 @@ import "./styles.css";
 export const MainHeader = () => {
   return (
     <div className="header-container">
-      <p>add header text here</p>
+      <p> </p>
       <SettingsButton btnLink="/settings" />
     </div>
   );
