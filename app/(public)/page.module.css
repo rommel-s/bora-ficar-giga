@@ -4,9 +4,8 @@
   align-items: center;
   justify-content: center;
   height: 100dvh;
-  overflow: hidden;
 
-  background-color: #fffefe;
+  overflow-y: hidden;
 
   gap: 40px;
 }
