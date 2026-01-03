@@ -6,6 +6,7 @@ main {
 }
 
 .workout-container {
+  background-color: #d46c6c;
   width: 100%;
   display: flex;
   flex-direction: column;
