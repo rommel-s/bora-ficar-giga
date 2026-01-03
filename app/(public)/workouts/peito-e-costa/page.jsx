@@ -8,8 +8,8 @@ export default function PeitoECosta() {
     <main>
       <h1>Treino de Peito e Costa</h1>
       <div className="workout-container">
-        <WorkoutPlaceholder name="Supino Reto" weight="80" sets="3" />
-        <WorkoutPlaceholder name="Supino Reto" weight="80" sets="3" />
+        <WorkoutPlaceholder name="dumbbell press" weight="14" sets="4" />
+        <WorkoutPlaceholder name="Dumbbell press inclinado" weight="14" sets="3" />
         <WorkoutPlaceholder name="Supino Reto" weight="80" sets="3" />
         <WorkoutPlaceholder name="Supino Reto" weight="80" sets="3" />
         <WorkoutPlaceholder name="Supino Reto" weight="80" sets="3" />
