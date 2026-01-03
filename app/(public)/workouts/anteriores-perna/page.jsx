@@ -1,19 +1,34 @@
 import WorkoutPlaceholder from "@/components/Workout-placeholder";
 import Link from "next/link";
 
+import urlGist from "@/public/api.js";
+
 import "@/styles/workout-pages.css";
 
-export default function Perna() {
+async function getTreinos() {
+  const URL = urlGist;
+
+  const res = await fetch(URL, { cache: "no-store", next: { revalidate: 0 } });
+
+  return res.json();
+}
+
+export default async function Perna() {
+  const data = await getTreinos();
+
+  const treinos = data.pernas || [];
   return (
     <main>
       <h1>Treino de Perna</h1>
       <div className="workout-container">
-        <WorkoutPlaceholder name="Supino Reto" weight="80" sets="3" />
-        <WorkoutPlaceholder name="Supino Reto" weight="80" sets="3" />
-        <WorkoutPlaceholder name="Supino Reto" weight="80" sets="3" />
-        <WorkoutPlaceholder name="Supino Reto" weight="80" sets="3" />
-        <WorkoutPlaceholder name="Supino Reto" weight="80" sets="3" />
-        <WorkoutPlaceholder name="Supino Reto" weight="80" sets="3" />
+        {treinos.map((treino) => (
+          <WorkoutPlaceholder
+            key={treino.id}
+            name={treino.name}
+            weight={treino.weight}
+            sets={treino.sets}
+          />
+        ))}
       </div>
       <Link href="/">
         <button>Voltar</button>

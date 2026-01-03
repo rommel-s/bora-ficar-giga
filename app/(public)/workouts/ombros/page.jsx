@@ -2,18 +2,31 @@ import Link from "next/link";
 
 import WorkoutPlaceholder from "@/components/Workout-placeholder";
 import "@/styles/workout-pages.css";
+import urlGist from "@/public/api";
 
-export default function Ombros() {
+async function getTreinos() {
+  const url = urlGist;
+
+  const res = await fetch(url, { cache: "no-store", next: { revalidate: 0 } });
+  return res.json();
+}
+
+export default async function Ombros() {
+  const data = await getTreinos();
+  const treinos = data.ombros || [];
+
   return (
     <main>
       <h1>Treino de Ombros</h1>
       <div className="workout-container">
-        <WorkoutPlaceholder name="Supino Reto" weight="80" sets="3" />
-        <WorkoutPlaceholder name="Supino Reto" weight="80" sets="3" />
-        <WorkoutPlaceholder name="Supino Reto" weight="80" sets="3" />
-        <WorkoutPlaceholder name="Supino Reto" weight="80" sets="3" />
-        <WorkoutPlaceholder name="Supino Reto" weight="80" sets="3" />
-        <WorkoutPlaceholder name="Supino Reto" weight="80" sets="3" />
+        {treinos.map((treino) => (
+          <WorkoutPlaceholder
+            key={treino.id}
+            name={treino.name}
+            weight={treino.weight}
+            sets={treino.sets}
+          />
+        ))}
       </div>
       <Link href="/">
         <button>Voltar</button>
