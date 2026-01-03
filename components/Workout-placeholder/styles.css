@@ -1,0 +1,95 @@
+* {
+  overflow: hidden;
+}
+
+main {
+  border: 1px solid red;
+}
+
+.workout-placeholder {
+  width: 90vw;
+  height: 130px;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #1b1b1b;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.imgplace {
+  width: 100px;
+  height: 100%;
+  background-color: pink;
+}
+
+.workout-info {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* container checkbox */
+.sets-checkbox {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin: 5px;
+}
+
+/* checkbox */
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 10px;
+  user-select: none;
+}
+
+/* Esconde o checkbox padrão do navegador */
+.custom-checkbox input {
+  display: none;
+}
+
+/* Cria o quadrado customizado */
+.checkmark {
+  height: 25px;
+  width: 40px;
+  background-color: #eee;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  position: relative;
+}
+
+/* Estilo quando o mouse passa por cima */
+.custom-checkbox:hover input ~ .checkmark {
+  background-color: #ddd;
+}
+
+/* Estilo quando está marcado (checked) */
+.custom-checkbox input:checked ~ .checkmark {
+  background-color: #2196f3; /* Cor de destaque */
+  border-color: #2196f3;
+}
+
+/* Cria o ícone de "check" (V) usando pseudo-elemento */
+.checkmark:after {
+  content: "";
+  display: none;
+  position: absolute;
+  left: 13px;
+  top: 1px;
+
+  width: 8px;
+  height: 13px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+/* Mostra o "check" quando marcado */
+.custom-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
