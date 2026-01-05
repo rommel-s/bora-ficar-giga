@@ -2,6 +2,7 @@ import WorkoutPlaceholder from "@/components/Workout-placeholder";
 import Link from "next/link";
 
 import urlGist from "@/public/api.js";
+import TimerCountdown from "@/components/Timer";
 
 import "@/styles/workout-pages.css";
 
@@ -19,7 +20,11 @@ export default async function Perna() {
   const treinos = data.pernas || [];
   return (
     <main>
-      <h1>Treino de Perna</h1>
+      <div className="workout-pages-header">
+        <h1>Treino de Perna</h1>
+        <TimerCountdown duration={90} />
+      </div>
+
       <div className="workout-container">
         {treinos.map((treino) => (
           <WorkoutPlaceholder
@@ -31,9 +36,6 @@ export default async function Perna() {
           />
         ))}
       </div>
-      <Link href="/">
-        <button>Voltar</button>
-      </Link>
     </main>
   );
 }

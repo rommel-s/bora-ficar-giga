@@ -5,6 +5,7 @@ import WorkoutPlaceholder from "@/components/Workout-placeholder";
 
 import urlGist from "@/public/api.js";
 import "@/styles/workout-pages.css";
+import TimerCountdown from "@/components/Timer";
 
 async function getTreinos() {
   const URL = urlGist;
@@ -23,6 +24,7 @@ export default async function Superiores() {
     <main>
       <div className="workout-pages-header">
         <h1>Treino de Superiores</h1>
+        <TimerCountdown duration={90} />
       </div>
       <div className="workout-container">
         {treinos.map((treino) => (

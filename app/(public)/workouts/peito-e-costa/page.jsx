@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import urlGist from "@/public/api.js";
 import "@/styles/workout-pages.css";
+import TimerCountdown from "@/components/Timer";
 
 // Como é um Server Component, podemos fazer o fetch direto
 async function getTreinos() {
@@ -21,7 +22,11 @@ export default async function PeitoECosta() {
 
   return (
     <main>
-      <h1>Treino de Peito e Costa</h1>
+      <div className="workout-pages-header">
+        <h1>Treino de Peito e Costa</h1>
+        <TimerCountdown duration={90} />
+      </div>
+
       <div className="workout-container">
         {treinos.map((treino) => (
           <WorkoutPlaceholder
@@ -33,9 +38,6 @@ export default async function PeitoECosta() {
           />
         ))}
       </div>
-      <Link href="/">
-        <button>Voltar</button>
-      </Link>
     </main>
   );
 }

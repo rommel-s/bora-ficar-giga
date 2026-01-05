@@ -3,6 +3,7 @@ import Link from "next/link";
 import WorkoutPlaceholder from "@/components/Workout-placeholder";
 
 import urlGist from "@/public/api.js";
+import TimerCountdown from "@/components/Timer";
 import "@/styles/workout-pages.css";
 
 async function getTreinos() {
@@ -22,6 +23,7 @@ export default async function PosterioresPerna() {
     <main>
       <div className="workout-pages-header">
         <h1>Treino de Posteriores de Perna</h1>
+        <TimerCountdown duration={90} />
       </div>
       <div className="workout-container">
         {treinos.map((treino) => (
