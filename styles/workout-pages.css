@@ -5,13 +5,21 @@ main {
   gap: 20px;
 }
 
+.workout-pages-header {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  border: 1px solid red;
+}
+
 .workout-container {
-  background-color: #d46c6c;
+  background-color: #eeeeee;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid black;
   padding: 30px;
   gap: 20px;
+
+  border: 1px solid red;
 }
