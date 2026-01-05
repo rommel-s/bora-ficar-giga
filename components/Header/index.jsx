@@ -4,7 +4,7 @@ import "./styles.css";
 export const MainHeader = () => {
   return (
     <div className="header-container">
-      <p> </p>
+      <BackButton btnLink="/" />
       <SettingsButton btnLink="/settings" />
     </div>
   );
@@ -13,7 +13,7 @@ export const MainHeader = () => {
 export const SecondaryHeader = () => {
   return (
     <div className="secondary-header-container">
-      <BackButton btnLink="/" />
+      <BackButton btnLink="/" color="800080" />
       <p>Configurações</p>
     </div>
   );

@@ -1,5 +1,5 @@
 .header-container {
-  background-color: blueviolet;
+  background-color: purple;
   color: white;
   height: 5dvh;
   display: flex;
@@ -8,8 +8,15 @@
   padding: 0 20px;
 }
 
+@media (max-width: 600px) {
+  .header-container {
+    height: 8dvh;
+  }
+}
+
 .secondary-header-container {
-  color: blueviolet;
+  color: #181818;
+
   background-color: white;
   height: 5vh;
   display: flex;
