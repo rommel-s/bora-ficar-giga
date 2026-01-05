@@ -16,7 +16,6 @@
 .imgplace {
   width: 100px;
   height: 100%;
-  background-color: pink;
 }
 
 .workout-info {
@@ -30,8 +29,8 @@
 .sets-checkbox {
   display: flex;
   flex-direction: row;
-  gap: 12px;
-  margin: 5px;
+  gap: 8px;
+  margin: 5px 2px 0 2px;
 }
 
 /* checkbox */
