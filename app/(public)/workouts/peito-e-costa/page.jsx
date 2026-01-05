@@ -29,6 +29,7 @@ export default async function PeitoECosta() {
             name={treino.name}
             weight={treino.weight}
             sets={treino.sets}
+            img={treino.img}
           />
         ))}
       </div>

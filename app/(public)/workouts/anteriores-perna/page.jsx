@@ -27,6 +27,7 @@ export default async function Perna() {
             name={treino.name}
             weight={treino.weight}
             sets={treino.sets}
+            img={treino.img}
           />
         ))}
       </div>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 import WorkoutPlaceholder from "@/components/Workout-placeholder";
 
@@ -20,7 +21,9 @@ export default async function Superiores() {
 
   return (
     <main>
-      <h1>Treino de Superiores</h1>
+      <div className="workout-pages-header">
+        <h1>Treino de Superiores</h1>
+      </div>
       <div className="workout-container">
         {treinos.map((treino) => (
           <WorkoutPlaceholder
@@ -28,12 +31,10 @@ export default async function Superiores() {
             name={treino.name}
             weight={treino.weight}
             sets={treino.sets}
+            img={treino.img}
           />
         ))}
       </div>
-      <Link href="/">
-        <button>Voltar</button>
-      </Link>
     </main>
   );
 }

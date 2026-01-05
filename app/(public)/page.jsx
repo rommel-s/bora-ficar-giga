@@ -3,6 +3,7 @@
 import { WorkoutButton } from "@/components/Buttons";
 import styles from "./page.module.css";
 import Link from "next/link";
+
 import { MainTitle, SubtitleText } from "@/components/Titles";
 import { useEffect } from "react";
 

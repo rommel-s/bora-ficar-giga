@@ -20,7 +20,9 @@ export default async function PosterioresPerna() {
 
   return (
     <main>
-      <h1>Treino de Posteriores de Perna</h1>
+      <div className="workout-pages-header">
+        <h1>Treino de Posteriores de Perna</h1>
+      </div>
       <div className="workout-container">
         {treinos.map((treino) => (
           <WorkoutPlaceholder
@@ -28,12 +30,10 @@ export default async function PosterioresPerna() {
             name={treino.name}
             weight={treino.weight}
             sets={treino.sets}
+            img={treino.img}
           />
         ))}
       </div>
-      <Link href="/">
-        <button>Voltar</button>
-      </Link>
     </main>
   );
 }

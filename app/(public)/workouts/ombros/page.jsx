@@ -25,6 +25,7 @@ export default async function Ombros() {
             name={treino.name}
             weight={treino.weight}
             sets={treino.sets}
+            img={treino.img}
           />
         ))}
       </div>
