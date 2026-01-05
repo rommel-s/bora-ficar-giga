@@ -5,7 +5,7 @@ import "./styles.css";
 export const WorkoutButton = ({ btnTitle, btnLink }) => {
   return (
     <Link href={btnLink}>
-      <button>{btnTitle}</button>
+      <button className="workout-button">{btnTitle}</button>
     </Link>
   );
 };
@@ -34,11 +34,11 @@ export const SettingsButton = ({ btnLink }) => {
 
 import { IoIosArrowBack } from "react-icons/io";
 
-export const BackButton = ({ btnLink }) => {
+export const BackButton = ({ btnLink, color }) => {
   return (
     <Link href={btnLink}>
       <button className="back-button">
-        <IoIosArrowBack size={30} />
+        <IoIosArrowBack size={30} color={color} />
       </button>
     </Link>
   );
