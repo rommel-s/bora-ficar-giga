@@ -1,0 +1,334 @@
+{
+  "peito_e_costa": [
+    {
+      "id": 1,
+      "name": "Dumbbell Press",
+      "weight": 14,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Press.gif"
+    },
+    {
+      "id": 2,
+      "name": "Dumbbell Press 30°",
+      "weight": 14,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Incline-Dumbbell-Press.gif"
+    },
+    {
+      "id": 3,
+      "name": "Crossover",
+      "weight": 14,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/High-Cable-Crossover.gif"
+    },
+    {
+      "id": 4,
+      "name": "Pec Deck",
+      "weight": 14,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Pec-Deck-Fly.gif"
+    },
+    {
+      "id": 5,
+      "name": "Pull over",
+      "weight": 18,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Pullover.gif"
+    },
+    {
+      "id": 6,
+      "name": "Remada Alta",
+      "weight": 15,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Lat-Pulldown.gif"
+    },
+    {
+      "id": 7,
+      "name": "Remada Frente",
+      "weight": 15,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/05/Front-Pulldown.gif"
+    },
+    {
+      "id": 8,
+      "name": "Remada Baixa",
+      "weight": 18,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Seated-Cable-Row.gif"
+    },
+    {
+      "id": 9,
+      "name": "Remada Cavalinho",
+      "weight": 18,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Lever-T-bar-Row.gif"
+    }
+  ],
+  "superiores": [
+    {
+      "id": 1,
+      "name": "Rosca direta barra",
+      "weight": 18,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Barbell-Curl.gif"
+    },
+    {
+      "id": 2,
+      "name": "Rosca alternada",
+      "weight": 8,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Curl.gif"
+    },
+    {
+      "id": 3,
+      "name": "Rosca Martelo",
+      "weight": 8,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Hammer-Curl.gif"
+    },
+    {
+      "id": 4,
+      "name": "Rosca Scott máquina",
+      "weight": 5,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/04/Lever-Preacher-Curl.gif"
+    },
+    {
+      "id": 5,
+      "name": "Hiperextensão de punho",
+      "weight": 5,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2022/06/Barbell-Reverse-Wrist-Curl-Over-a-Bench.gif"
+    },
+    {
+      "id": 6,
+      "name": "Flexão de punho",
+      "weight": 5,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2025/07/seated-barbell-finger-curl.gif"
+    },
+    {
+      "id": 7,
+      "name": "Elevação Lateral",
+      "weight": 7,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Lateral-Raise.gif"
+    },
+    {
+      "id": 8,
+      "name": "Triceps francês sentado",
+      "weight": 15,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/06/Seated-Dumbbell-Triceps-Extension.gif"
+    },
+    {
+      "id": 9,
+      "name": "Triceps francês Polia",
+      "weight": 15,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/04/Cable-Rope-Overhead-Triceps-Extension.gif"
+    },
+    {
+      "id": 10,
+      "name": "Triceps corda",
+      "weight": 15,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/06/Rope-Pushdown.gif"
+    },
+    {
+      "id": 11,
+      "name": "Triceps pulley",
+      "weight": 7,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Pushdown.gif"
+    },
+    {
+      "id": 12,
+      "name": "Triceps pulley grip reverso",
+      "weight": 7,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/06/Reverse-Grip-Pushdown.gif"
+    }
+  ],
+  "posterior_pernas": [
+    {
+      "id": 1,
+      "name": "Agachamento",
+      "weight": 50,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/BARBELL-SQUAT.gif"
+    },
+    {
+      "id": 2,
+      "name": "Agachamento Smith",
+      "weight": 50,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2024/10/smith-machine-squat.gif"
+    },
+    {
+      "id": 3,
+      "name": "Abdução de quadril",
+      "weight": 15,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/HiP-ABDUCTION-MACHINE.gif"
+    },
+    {
+      "id": 4,
+      "name": "Flexora em pé",
+      "weight": 15,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2022/10/Standing-Single-Leg-Curl-Machine.gif"
+    },
+    {
+      "id": 5,
+      "name": "Flexora sentado",
+      "weight": 15,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/08/Seated-Leg-Curl.gif"
+    },
+    {
+      "id": 6,
+      "name": "Mesa Flexora",
+      "weight": 15,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Leg-Curl.gif"
+    },
+    {
+      "id": 7,
+      "name": "Panturrilha em pé",
+      "weight": 18,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/06/Standing-Calf-Raise.gif"
+    },
+    {
+      "id": 8,
+      "name": "Hack em pé",
+      "weight": 15,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2022/10/Reverse-Hack-Squat.gif"
+    }
+  ],
+  "ombros": [
+    {
+      "id": 1,
+      "name": "Elev. frontal Halteres",
+      "weight": 8,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/08/Two-Arm-Dumbbell-Front-Raise.gif"
+    },
+    {
+      "id": 2,
+      "name": "Elev. frontal Anilha",
+      "weight": 15,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/04/Weight-Plate-Front-Raise-1.gif"
+    },
+    {
+      "id": 3,
+      "name": "Elev. frontal máquina",
+      "weight": 15,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/08/Two-Arm-Cable-Front-Raise.gif"
+    },
+    {
+      "id": 4,
+      "name": "Elevação Lateral",
+      "weight": 7,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Lateral-Raise.gif"
+    },
+    {
+      "id": 5,
+      "name": "Elev letaral cabo baixo",
+      "weight": 15,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/07/one-arm-Cable-Lateral-Raise.gif"
+    },
+    {
+      "id": 6,
+      "name": "Serrote",
+      "weight": 18,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Row.gif"
+    },
+    {
+      "id": 7,
+      "name": "Crucifixo inverso",
+      "weight": 15,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Rear-Delt-Machine-Flys.gif"
+    },
+    {
+      "id": 8,
+      "name": "Remada maquina aberta",
+      "weight": 15,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Seated-Row-Machine.gif"
+    },
+    {
+      "id": 9,
+      "name": "High Row",
+      "weight": 15,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2023/06/Lever-High-Row.gif"
+    },
+    {
+      "id": 10,
+      "name": "Face Pull",
+      "weight": 15,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Face-Pull.gif"
+    }
+  ],
+  "pernas": [
+    {
+      "id": 1,
+      "name": "Agachamento",
+      "weight": 50,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/BARBELL-SQUAT.gif"
+    },
+    {
+      "id": 2,
+      "name": "Agachamento Smith",
+      "weight": 50,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2024/10/smith-machine-squat.gif"
+    },
+    {
+      "id": 3,
+      "name": "Leg Press 45°",
+      "weight": 15,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2015/11/Leg-Press.gif"
+    },
+    {
+      "id": 4,
+      "name": "Cadeira Extensora",
+      "weight": 15,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/LEG-EXTENSION.gif"
+    },
+    {
+      "id": 5,
+      "name": "Cadeira Adutora",
+      "weight": 15,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/02/HIP-ADDUCTION-MACHINE.gif"
+    },
+    {
+      "id": 6,
+      "name": "Panturrilha em pé",
+      "weight": 18,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2021/06/Standing-Calf-Raise.gif"
+    },
+    {
+      "id": 7,
+      "name": "Hack em pé",
+      "weight": 15,
+      "sets": 4,
+      "img": "https://fitnessprogramer.com/wp-content/uploads/2022/10/Reverse-Hack-Squat.gif"
+    }
+  ]
+}
